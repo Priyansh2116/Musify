@@ -14,7 +14,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ notification: Notification) {
         // Single instance only — if another copy is already running, bow out so we
         // don't end up with duplicate menu-bar icons / windows.
-        let mine = Bundle.main.bundleIdentifier ?? "com.miniplayer.widget"
+        let mine = Bundle.main.bundleIdentifier ?? "com.musify.app"
         if NSRunningApplication.runningApplications(withBundleIdentifier: mine).count > 1 {
             NSApp.terminate(nil)
             return
@@ -45,7 +45,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         if let button = statusItem.button {
             button.image = NSImage(
                 systemSymbolName: "music.note",
-                accessibilityDescription: "Mini Player"
+                accessibilityDescription: "Musify"
             )
         }
         rebuildMenu()
@@ -54,7 +54,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     private func rebuildMenu() {
         let menu = NSMenu()
 
-        let header = NSMenuItem(title: "Widget Style", action: nil, keyEquivalent: "")
+        let header = NSMenuItem(title: "Style", action: nil, keyEquivalent: "")
         header.isEnabled = false
         menu.addItem(header)
 

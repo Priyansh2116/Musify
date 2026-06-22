@@ -1,12 +1,12 @@
 #!/bin/bash
-# Builds a release binary and assembles "Mini Player.app" — a self-contained,
-# Dock-less menu-bar widget. Works with just the Command Line Tools (no Xcode).
+# Builds a release binary and assembles "Musify.app" — a self-contained,
+# Dock-less menu-bar app. Works with just the Command Line Tools (no Xcode).
 set -euo pipefail
 cd "$(dirname "$0")"
 
-APP_NAME="Mini Player"
+APP_NAME="Musify"
 BUNDLE="build/${APP_NAME}.app"
-EXEC_NAME="MiniPlayer"
+EXEC_NAME="Musify"
 
 echo "▸ Building release…"
 swift build -c release

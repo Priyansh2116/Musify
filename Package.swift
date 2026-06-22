@@ -2,12 +2,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "MiniPlayer",
+    name: "Musify",
     platforms: [.macOS(.v13)],
     targets: [
         .executableTarget(
-            name: "MiniPlayer",
-            path: "Sources/MiniPlayer"
+            name: "Musify",
+            path: "Sources/Musify"
         )
     ]
 )
