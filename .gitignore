@@ -1,0 +1,19 @@
+# Build artifacts
+.build/
+build/
+buildout/
+DerivedData/
+
+# Xcode projects are generated from project.yml via xcodegen
+*.xcodeproj
+
+# SwiftPM / Xcode local state
+.swiftpm/
+*.xcuserstate
+
+# macOS
+.DS_Store
+
+# Editor / agent local config
+.claude/
+.vscode/
