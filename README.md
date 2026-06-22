@@ -10,6 +10,20 @@ Command Line Tools — full Xcode optional.
 
 Works with **Apple Music** and **Spotify**.
 
+## Download
+
+### [⬇︎ Download Mini Player](https://github.com/Priyansh2116/Musify/raw/main/MiniPlayer.zip) — macOS 13 or later
+
+**Installing (no terminal needed):**
+
+1. Open the downloaded zip — you'll get **Mini Player**. Drag it into your **Applications** folder.
+2. Double-click **Mini Player**. macOS will say it *"cannot verify the developer"* — click **Done** (do **not** move it to Trash).
+3. Open  **System Settings → Privacy & Security**, scroll down to *"Mini Player was blocked…"*, and click **Open Anyway**.
+4. Click **Open Anyway** once more and confirm with your password or Touch ID.
+5. Mini Player appears on your desktop and as a ♪ icon in the menu bar. When it asks, **allow** it to access Apple Music.
+
+> That one-time warning is normal for free Mac apps — this one just isn't paid-notarized by Apple. Your Mac is safe; the source is right here in this repo.
+
 ## Build & run
 
 ```bash
