@@ -1,9 +1,9 @@
 # Musify
 
-A quiet, native macOS desktop music player.
-Album artwork first, controls second. It sits on your desktop as a transparent,
-borderless window (behind your app windows, like a widget), shows what's playing,
-and updates in real time.
+A quiet, native macOS desktop music player — a **free, open-source** take on the
+[Sleeve](https://replay.software/sleeve) aesthetic. Album artwork first, controls
+second. It sits on your desktop as a transparent, borderless window (behind your
+app windows, like a widget), shows what's playing, and updates in real time.
 
 Built entirely in SwiftUI + AppKit, no dependencies. Works with **Apple Music**
 and **Spotify**.
@@ -105,3 +105,9 @@ Sources/Musify/
 Resources/    Info.plist (LSUIElement agent, Automation usage string)
 make_app.sh   builds + bundles Musify.app
 ```
+
+## Acknowledgements
+
+Design and concept inspired by [Sleeve](https://replay.software/sleeve) by Replay
+Software. Musify is an independent, free, open-source project and is not affiliated
+with or endorsed by them.
