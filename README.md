@@ -1,6 +1,6 @@
 # Musify
 
-A quiet, native macOS desktop music player.(https://replay.software/sleeve).
+A quiet, native macOS desktop music player.
 Album artwork first, controls second. It sits on your desktop as a transparent,
 borderless window (behind your app windows, like a widget), shows what's playing,
 and updates in real time.
