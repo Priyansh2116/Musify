@@ -97,8 +97,3 @@ Sources/MiniPlayer/
 Resources/    Info.plist (LSUIElement agent, Automation usage string)
 make_app.sh   builds + bundles Mini Player.app
 ```
-
-## License
-
-No license file yet — add one (e.g. MIT) before publishing if you want others to
-reuse it.
